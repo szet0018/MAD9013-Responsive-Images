@@ -16,16 +16,21 @@ html {
 body{ 
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
   line-height: 1.5;
+  width: 600px;
+  margin: 0 auto 0 auto;
 }
 h1{
   margin-bottom: 1rem;
   font-size: 1.8rem;
+    
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
 }
 p{
   font-family: georgia;
   line-height: 1.75;
 }
-
 
 .wrapper{
   max-width: 1024px;
@@ -47,6 +52,17 @@ p{
 }
 
 
+.col-container{
+  margin: 3rem 0;
+}
+
+
+/* -- Footer -- */
+.footer{
+  background: #111;
+  text-align: center;
+  color: #fff;
+}
 
 /* ----------- Grid --------- */
 @media only screen and (max-device-width: 400px){
@@ -71,21 +87,3 @@ p{
 }
 
 /* -------------------------- */
-.col-container{
-  margin: 3rem 0;
-}
-
-
-
-
-
-
-
-
-/* -- Footer -- */
-.footer{
-  background: #111;
-  text-align: center;
-  color: #fff;
-}
-
