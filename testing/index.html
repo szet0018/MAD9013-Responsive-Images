@@ -2,18 +2,16 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/css2.css">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="banner"></div>
+    <div class="banner"></div>  
+    <header>
+      <h1>Layout and Picture Elements</h1>
+      <h2>Flexible Grid</h2>
+    </header>
 
-
-    <div class="wrapper">  
-        <header>
-          <h1>Layout and Picture Elements</h1>
-          <h2>Flexible Grid</h2>
-        </header>
-    </div>
 <!--
 <picture>
    <source media="(max-width: 600px)" srcset="http://placehold.it/600x600">
@@ -21,34 +19,33 @@
    <img src="http://placehold.it/340x340" alt="This picture loads on non-supporting browsers.">
 </picture>
 -->
-    <div class="image400">
-        
-        <div class="image400_600_3col">
-        
+    <main class="wrapper"> 
+    
+    <!--<section class="one">-->
+        <div class="image400">
             <picture>
-           <source media="(max-width: 400px)" srcset="http://placehold.it/400x400">
-           <source src="http://placehold.it/400x400">
-           <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
-            
-           <source media="(max-width: 400px)" srcset="http://placehold.it/400x400">
-           <source src="http://placehold.it/400x400">
-           <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
-        </picture>
-    </div>
+               <source media="(max-width: 400px)" srcset="http://placehold.it/400x400">
+               <source src="http://placehold.it/400x400">
+               <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
+
+               <source media="(max-width: 400px)" srcset="http://placehold.it/400x400">
+               <source src="http://placehold.it/400x400">
+               <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
+            </picture>
+        </div>
+        
     <div class="image400_600">
         <picture>
            <source media="(min-width: 400px) and (max-width: 600px)" srcset="http://placehold.it/600x600">
            <source src="http://placehold.it/600x600">
            <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
-        </div> 
-        
-        <div class="image400_800_3col">
-        
+
             <source media="(min-width: 400px) and (max-width: 600px)" srcset="http://placehold.it/600x600">
            <source src="http://placehold.it/600x600">
            <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
         </picture>
     </div>
+        
     <div class="image600_800">
         <picture>
            <source media="(min-width: 600px) and (max-width: 800px)" srcset="http://placehold.it/400x400">
@@ -59,13 +56,12 @@
            <source src="http://placehold.it/400x400">
            <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
         </picture>
-        </div>
     </div>
+    <!--</section>
+        
+    <section class="two">-->
     <div class="image800_1024">
-        
-        <div class="image600_1024_3col">
-        
-            <picture>
+        <picture>
            <source media="(min-width: 800px) and (max-width: 1024px)" srcset="http://placehold.it/512x512">
            <source src="http://placehold.it/512x512">
            <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
@@ -75,14 +71,13 @@
            <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
         </picture>
     </div>
+        
     <div class="image1024">
         <picture>
            <source media="(min-width: 1024px)" srcset="http://placehold.it/340x340">
            <source src="http://placehold.it/340x340">
            <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
-            </div>  
-           
-        <div class="image1024_3col">
+
             
            <source media="(min-width: 1024px)" srcset="http://placehold.it/340x340">
            <source src="http://placehold.it/340x340">
@@ -95,13 +90,12 @@
            <source media="(min-width: 1024px)" srcset="http://placehold.it/340x340">
            <source src="http://placehold.it/340x340">
            <img src="http://placehold.it/600x600" alt="This picture loads on non-supporting browsers.">
-        </div> 
-        
         </picture>
     </div>
-
-    <footer class="footer">
-      <p>Copyright MySite 1954<p>
-    </footer>
+    <!--</section>-->
+</main>
+<footer class="footer">
+  <p>Copyright MySite 1954<p>
+</footer>
 </body>
 </html>

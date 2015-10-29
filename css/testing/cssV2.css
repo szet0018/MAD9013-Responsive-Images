@@ -1,0 +1,104 @@
+.page {
+    width:90%;
+		}
+header {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    color: #5f5f5f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+.banner{
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5847/viewport-selection-opt.jpg) no-repeat 50% 50%;
+    text-transform: uppercase;
+    text-align:center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10rem 0;
+    }
+.footer {
+    background-color: #111;
+    text-align: center;
+    color: #fff;
+    }
+    }
+.img-grid {
+    width:100%;
+    margin:0 auto;
+    margin-top:.5%;
+}
+.img-wrapper1 {
+    display:inline-block;
+    width:50%;
+    position:relative;
+    float:left;
+ }
+ .img-wrapper1 .img-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+ .img-wrapper2 {
+    display:inline-block;
+    width:50%;
+    position:relative;
+    float:left;
+    }
+ .img-wrapper2 .img-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+ .img-wrapper3 {
+    display:inline-block;
+    width:50%;
+    position:relative;
+    float:left;
+    }
+ .img-wrapper3 .img-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+ .img-wrapper4 {
+    display:inline-block;
+    width:50%;
+    position:relative;
+    float:left;
+    }
+ .img-wrapper4 .img-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+ img {
+    width:100%;
+    }
+ .img-wrapper:after {
+    content:"";
+    padding-top:100%;
+    display:block;
+    }
+ /*Extra step*/
+ .img-wrapper {
+    width: 49.75%;
+    }
+ .img-wrapper2 {
+    margin-left:.5%;
+    }
+ .img-wrapper3 {
+    margin-top:.5%;
+    }
+ .img-wrapper4 {
+    margin-top:.5%;
+    margin-left:.5%;
+    }

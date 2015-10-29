@@ -208,7 +208,28 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         vertical-align: baseline;
     }
     
-    .image400_600_3col {
+    h1 {
+        font-size: 4.7rem;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    h2 {
+        font-size: 3.5rem;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    
+    .footer {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    .image400 {
         width: 100%;
         -webkit-column-count: 3; 
         -moz-column-count: 3; 
@@ -216,7 +237,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         padding: 1.5% 3% 1.5% 3%;
     }
     
-    .image400_800_3col {
+    .image400_600 {
         width: 100%;
         -webkit-column-count: 3; 
         -moz-column-count: 3; 
@@ -224,13 +245,44 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         padding: 1.5% 3% 1.5% 3%;
     }
     
-    .image600_1024_3col {
-         width: 100%;
+    .image600_800 {
+        width: 100%;
+        /*-webkit-column-count: 3; 
+        -moz-column-count: 3; 
+        column-count: 3;*/
+        padding: 1.5% 3% 1.5% 3%;
+    }
+    
+    .image800_1024 {
+        width: 100%;
+        /*-webkit-column-count: 3; 
+        -moz-column-count: 3; 
+        column-count: 3;*/
+        padding: 1.5% 3% 1.5% 3%;
+    }
+    
+    .image1024 {
+        width: 100%;
         -webkit-column-count: 3; 
         -moz-column-count: 3; 
         column-count: 3;
         padding: 1.5% 3% 1.5% 3%;
     }
-        
     
+    img {
+        width: 100%;
+    }
+    
+    h1 {
+        width: 100%;
+    }
+
+   .footer {
+       clear: both;
+   }
+    .one, .two, .wrapper{
+        webkit-column-count: 3; 
+        -moz-column-count: 3; 
+        column-count: 3;
+    }
 }
